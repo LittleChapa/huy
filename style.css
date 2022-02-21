@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+img,
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #808080;
+}
+
+.container {
+    max-width: 1720px;
+    margin: 0 auto;
+}
+
+
+/* header styles start */
+
+.header {
+    background-color: #fff;
+}
+
+.header-title-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 66px;
+    margin-bottom: 146px;
+}
+
+.header-logo {
+    height: 32px;
+}
+
+.header-menu ul {
+    display: flex;
+}
+
+.header-menu li {
+    margin-right: 40px;
+}
+
+.header-menu li:last-child {
+    margin-right: 0px;
+}
+
+.header-menu a:hover,
+.header-menu a:focus,
+.header-menu a:active {
+    color: #000;
+}
+
+
+/* header styles end */
+
+
+/* home styles start */
+
+.home {
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1620px;
+    margin: 0 auto;
+}
+
+.home-title {
+    margin: 0;
+    padding: 0;
+    line-height: 176px;
+    color: #333333;
+}
+
+.first-part-home-title {
+    font-family: Palatino Linotype;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 174px;
+}
+
+.second-part-home-title {
+    font-family: Palatino Linotype;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 183px;
+    margin-bottom: 80px;
+}
+
+.home-p {
+    max-width: 405px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 32px;
+    color: #808080;
+}
+
+.arrow-down-home {
+    min-width: 9px;
+    min-height: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+/* home styles end */
+
+
+/* about styles start */
+
+.about-trans {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 282px 257px 276px 216px;
+}
+
+.about-container {
+    width: 50%;
+    left: 0;
+}
+
+.about-sinder {
+    background: no-repeat url(img/about-sinder.jpg);
+    background-size: cover;
+}
+
+.nomber {
+    font-family: Palatino Linotype;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 69px;
+    line-height: 60px;
+    color: #808080;
+    margin-bottom: 30px;
+}
+
+.about-title {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 52px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.about-subtitle {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #7a7a7a;
+    margin-bottom: 20px;
+}
+
+.about-link {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.about-igotchu {
+    background: no-repeat url(img/about-igotchu.jpg);
+    background-size: cover;
+}
+
+.about-life {
+    background: no-repeat url(img/about-life.jpg);
+    background-size: cover;
+}
+
+
+/* about styles end */
+
+
+/* footer styles start */
+
+.footer {
+    background: #fafafa;
+    min-height: 412px;
+}
+
+.footer-logo {
+    height: 32px;
+    padding: 90px 0 50px 0;
+}
+
+.footer-social-links {
+    margin-bottom: 45px;
+}
+
+.footer-social-links ul {
+    display: flex;
+}
+
+.footer-social-links li {
+    margin-right: 40px;
+}
+
+.footer-social-links li:last-child {
+    margin-right: 0px;
+}
+
+.footer-social-links a:hover,
+.footer-social-links a:focus,
+.footer-social-links a:active {
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+
+.footer-subtitle {
+    font-size: 13px;
+    line-height: 24px;
+    color: #b8b8b8;
+}
+
+
+/* footer styles end */
